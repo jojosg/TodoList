@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* font family */
+  --font-base: 'NanumSquare', system-ui, sans-serif;
+
+  /* font sizes */
+  --text-20: 20px;
+  --text-18: 18px;
+  --text-16: 16px;
+
+  /* font weights */
+  --font-regular: 400;
+  --font-extrabold: 800;
+  --font-bold: 700;
+
+  /* 디자인 시스템 */
+  /* slate */
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+
+  /* brand */
+  --primary: #7c3aed;
+  --secondary: #ede9fe;
+
+  /* status */
+  --rose-500: #f43f5e;
+  --lime-300: #bef264;
+  --amber-800: #92400e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareR.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareB.woff2') format('woff2');
+}
+
+/* Typo System */
+
+/* Bold */
+.text-20-b {
+  font-size: var(--text-20);
+  font-weight: var(--font-bold);
+}
+
+.text-18-b {
+  font-size: var(--text-18);
+  font-weight: var(--font-bold);
+}
+
+.text-16-eb {
+  font-size: var(--text-16);
+  font-weight: var(--font-bold);
+}
+
+.text-16-b {
+  font-size: var(--text-16);
+  font-weight: var(--font-bold);
+}
+
+/* Regular */
+.text-16-r {
+  font-size: var(--text-16);
+  font-weight: var(--font-regular);
+}
+
+body {
+  color: var(--slate-900);
+  font-family: var(--font-base);
+  font-size: var(--text-16);
+  font-weight: var(--font-regular);
+}
