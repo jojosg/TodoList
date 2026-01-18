@@ -39,7 +39,16 @@ TodoList는 할 일을 효율적으로 관리할 수 있는 서비스를 제공�
 ![상세페이지4](https://github.com/user-attachments/assets/6edcc0c2-026c-41f0-a463-77e96c4d930a)
 
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ 기술 스택
+<div>
+<img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Zustand-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+  </div>
+
+
+
 
 ## Getting Started
 
